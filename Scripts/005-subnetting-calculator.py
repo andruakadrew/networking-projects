@@ -1,3 +1,21 @@
+# ============================================================
+# Level 005 - Subnet Calculator
+# ============================================================
+# Takes an IP address in CIDR notation and calculates all
+# relevant subnet details: network/broadcast addresses,
+# subnet and wildcard masks, usable host range, total hosts,
+# and a binary breakdown showing the network/host bit boundary.
+# Includes an optional membership check to verify whether a
+# specific IP falls within the given subnet.
+#
+# Usage:
+#   python level_005_subnet_calculator.py 192.168.1.50/24
+#   python level_005_subnet_calculator.py 10.0.4.0/22 --check 10.0.5.37
+#
+# Dependencies: None (uses standard library ipaddress module)
+# ============================================================
+
+
 import argparse
 import ipaddress
 
