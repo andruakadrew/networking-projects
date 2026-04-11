@@ -1,3 +1,19 @@
+# ============================================================
+# Level 002 - Network Interface Status & Traffic Monitor
+# ============================================================
+# Pulls operational status (up/down), link speed, MTU, and
+# live traffic counters (bytes, packets, errors, drops) for
+# every network interface. Provides a snapshot of interface
+# health and utilization similar to what feeds enterprise
+# monitoring dashboards.
+#
+# Usage:
+#   python level_002_interface_monitor.py
+#
+# Dependencies: psutil
+# ============================================================
+
+
 import psutil
 
 
