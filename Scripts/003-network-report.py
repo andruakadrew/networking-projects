@@ -1,3 +1,19 @@
+# ============================================================
+# Level 003 - Comprehensive Network Report (JSON Export)
+# ============================================================
+# Merges interface address data and status/traffic counters
+# into a single unified report. Displays a brief summary to
+# the console and exports the full dataset as a timestamped
+# JSON file for ingestion by monitoring tools, SIEMs, or
+# diff-based change detection workflows.
+#
+# Usage:
+#   python level_003_network_report.py
+#
+# Dependencies: psutil
+# ============================================================
+
+
 import psutil
 import socket
 import json
