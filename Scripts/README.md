@@ -22,6 +22,7 @@ This folder contains 365 Python scripts, that progressively build from foundatio
 | 4 | `004-dns-tool.py` | DNS Querying and reverse lookups for IPv4 addresses | 04/10/2026 |
 | 5 | `005-subnetting-calculator.py` | Takes an IP address with CIDR notation and calculates the subnet | 04/11/2026 |
 | 6 | `006-network-mapper.py` | Discover live host on a subnet by pinging usable addresses | 04/12/2026 |
+| 7 | `007-vendor-lookup.py` | Takes in MAC addresses, extracts the OUI, and outputs the vendor by utilizing a local OUI database | 04/14/2026 |
 
 
 ## Dependencies
@@ -35,7 +36,8 @@ pip install -r requirements.txt
 | Package | First Used | Purpose |
 |---------|------------|---------|
 | `psutil` | Level 1 | Cross-platform system and network interface data |
-| `dnspython` | Level 4 | High level functionality for simple DNS queries  |
+| `dnspython` | Level 4 | High level functionality for simple DNS queries |
+| `requests` | Level 7 | Allows HTTP transactions with web services |
 
 
 
