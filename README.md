@@ -6,4 +6,4 @@ A collection of Python automation scripts built to streamline network monitoring
 
 | Script | Description |
 |---|---|
-| [net-discovery](./net-discovery.py) | Discovers all network interfaces on the local machine and reports their names, IPv4/IPv6 addresses, MAC addresses, and subnet masks. |
+| [network-interfaces](./network-interfaces.py) | Discovers all network interfaces on the local machine and reports their names, IPv4/IPv6 addresses, MAC addresses, and subnet masks. |
